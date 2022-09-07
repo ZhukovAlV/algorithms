@@ -7,7 +7,7 @@ public class Main {
         System.out.println(binary_search(masNum, 6));
     }
 
-    static int binary_search(int[] mas, int num) {
+    static int binarySearch(int[] mas, int num) {
         int low = mas[0];
         int high = mas[mas.length - 1];
 
