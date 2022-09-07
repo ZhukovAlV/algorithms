@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    int[] masNum = new int[] {1, 2, 3, 4, 5};
-        System.out.println(binary_search(masNum, 6));
+        System.out.println(binarySearch(masNum, 6));
     }
 
     static int binarySearch(int[] mas, int num) {
