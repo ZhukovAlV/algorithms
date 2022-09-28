@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Search {
 
     static int count = 0;
 
@@ -8,7 +8,7 @@ public class Main {
 
 
         // Массив чисел
-        int[] balls = new int[2_000_000_000];
+        int[] balls = new int[1_000_000_000];
         for (int i = 0; i < balls.length; i++) {
             balls[i] = i + 1;
         }
