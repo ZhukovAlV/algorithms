@@ -35,8 +35,5 @@ public class Test {
         list.add(2);
 
         list.add(3);
-
-
-
     }
 }
