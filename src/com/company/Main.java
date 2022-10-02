@@ -20,7 +20,7 @@ public class Main {
         long start = System.currentTimeMillis();
 
         // Раскомментируем необходимый алгоритм
-        //System.out.println(simpleSearch(balls, guess));
+       // System.out.println(simpleSearch(balls, guess));
         System.out.println(binarySearch(balls, guess));
 
         System.out.println("Count:" + count);
