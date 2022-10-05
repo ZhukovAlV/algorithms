@@ -18,14 +18,24 @@ public class Test {
 
 
         // Динамический массив
-        ArrayList list = new ArrayList();
+/*        ArrayList list = new ArrayList();
 
         for (int i = 0; i < 1_000; i++) {
             list.add(i+1);
         }
         list.set(999, 1);
 
-        System.out.println(list.get(999));
+        System.out.println(list.get(999));*/
+
+        ArrayList list = new ArrayList();
+
+        for (int i = 0; i < 10; i++) {
+            if (i == 2) continue;
+            list.add(i+1);
+        }
+
+        list.forEach(System.out::println);
+
     }
 
 }
