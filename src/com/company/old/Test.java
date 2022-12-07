@@ -1,4 +1,4 @@
-package com.company;
+package com.company.old;
 
 import java.util.ArrayList;
 
@@ -27,6 +27,7 @@ public class Test {
 
         System.out.println(list.get(999));*/
 
+/*
         ArrayList list = new ArrayList();
 
         for (int i = 0; i < 10; i++) {
@@ -35,6 +36,10 @@ public class Test {
         }
 
         list.forEach(System.out::println);
+*/
+
+
+
 
     }
 
